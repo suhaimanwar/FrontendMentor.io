@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*,
+::before,
+::after {
+    margin: 0;
+    padding: 0;
+   box-sizing: border-box; /* implementing box model*/
+}
+
+html{
+    font-size: 100%;
+}
+
+body{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+}
+
+h1{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+    margin-top: 10px;
+    font-size: 1.1rem;
+}
+
+p{
+    font-family: 'Outfit', sans-serif;
+    color: hsl(0, 0%, 100%);
+}
+
+.parent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.card{
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 350px;
+}
+
+.mainp{
+    margin-top: 10px;
+    font-size: 1rem;
+    color: hsl(0deg 0% 100% / 50%);
+}
+
+.equilib-img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+.eth-time-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.eth{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.eth-img{
+
+}
+
+.clock{
+    display: flex;
+    gap: 0.5rem;
+    align-items: center;
+}
+
+.clock-img{
+
+}
+
+.eth-text{
+    color: hsl(178, 100%, 50%);
+    font-weight: bold;
+}
+
+.hr{
+    margin-top: 15px;
+    border: 0.5px solid rgb(139 172 218 / 20%) ;
+}
+
+
+.profile-section{
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.profile-img{
+    width: 10%;
+}
+
+
+
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
