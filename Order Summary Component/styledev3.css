@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;600;700;900&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-family: 'Red Hat Display', sans-serif;
+	background-image: url("images/pattern-background-desktop.svg");
+	background-repeat: no-repeat;
+	background-color: hsl(225, 100%, 94%);
+}
+
+
+.parent{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.card{
+	border-radius: 10px;
+	max-width: 300px;
+	text-align: center;
+	background-color: whitesmoke;
+	box-shadow: 0px 5px 20px hsl(224deg 23% 55% / 20%);
+}
+
+.hero-img{
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	width: 100%;
+}
+
+.deets{
+	padding: 30px;
+}
+
+h1{
+	font-size: 1.2rem;
+	font-weight: 900;
+}
+
+p{
+	font-size: 0.8rem;
+}
+
+
+
+.mainp{
+	margin-top: 15px;
+	font-size: 0.7rem;
+	color: hsl(224, 23%, 55%);
+
+}
+
+.payment-deets{
+	border-radius: 10px;
+	padding: 10px;
+	background-color: hsl(225, 100%, 98%);
+	margin-top: 15px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+.icon-annual-cash{
+	margin-left: -10px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+
+
+.icon-music{
+	padding-right: 10px;
+	width: 30%;
+}
+
+.annual-plan-deets{
+	color: 	color: hsl(224, 23%, 55%);;
+	display: flex;
+	flex-direction: column;
+}
+
+.annual-p{
+	color: black;
+	font-weight: bold;
+}
+
+
+.a-change{
+	font-size:0.8rem;
+}
+
+.a-change:hover{
+	text-decoration: none;
+}
+
+.buttons{
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.proceed-btn{
+	box-shadow: 0px 5px 20px lightgray;
+	cursor: pointer;
+	font-size: 0.7rem;
+	font-weight: 900;
+	color: whitesmoke;
+	background-color: hsl(245, 75%, 52%);
+	border: 0;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.proceed-btn:hover{
+	background-color:hsl(245deg 75% 52% / 70%);
+}
+
+.cancel-btn{
+	margin-top: 15px;
+	cursor: pointer;
+	margin-top: 10px;
+	font-size: 0.7rem;
+	font-weight: 900;
+	color: hsl(224, 23%, 55%);
+	background-color: transparent;
+	border: 0;
+	border-radius: 10px;
+	margin-top: 10px;
+	padding: 10px;
+	padding-right: 50px;
+	padding-left: 50px;
+}
+
+.cancel-btn:hover{
+	color: dimgray;
+}
+
+
+
+
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
